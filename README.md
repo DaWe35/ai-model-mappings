@@ -14,6 +14,5 @@ While I'm focused on Image and Video models, other models are welcome to be adde
 
 curl --request GET \
   --url https://api.fal.ai/v1/models?limit=1000 \
-  --header 'Authorization: Key <YOUR_API_KEY>:<YOUR_API_SECRET>'
-  > fal-models.json
+  --header 'Authorization: Key <YOUR_API_KEY>:<YOUR_API_SECRET>' > fal-models.json
 ```

@@ -95,6 +95,8 @@ const providelMapping = [
         imagerouter: "qwen/qwen-image",
         runware: "runware:108@1",
         chutes: "qwen-image",
+        wavespeed: "wavespeed-ai/qwen-image/text-to-image",
+        nanogpt: "qwen-image",
     },
     {
         huggingface: "Qwen/Qwen-Image-Edit",
@@ -102,6 +104,7 @@ const providelMapping = [
         imagerouter: "qwen/qwen-image-edit",
         runware: "runware:108@20",
         fal: "fal-ai/qwen-image-edit",
+        wavespeed: "wavespeed-ai/qwen-image/edit",
     },
     {
         imagerouter: "qwen/qwen-image-edit-plus",
@@ -279,6 +282,9 @@ const providelMapping = [
         runware: "bytedance:5@0",
         deepinfra: "ByteDance/Seedream-4",
         fal: "fal-ai/bytedance/seedream/v4/text-to-image",
+        replicate: "bytedance/seedream-4",
+        wavespeed: "bytedance/seedream-v4",
+        
     },
     {
         imagerouter: "cagliostrolab/animagine-xl-3.0",
@@ -298,11 +304,19 @@ const providelMapping = [
         imagerouter: "google/gemini-2.5-flash",
         vertex: "gemini-2.5-flash-image",
         fal: "fal-ai/gemini-25-flash-image",
+        nanogpt: "google:4@1",
+        runware: "google:4@1",
+        replicate: "google/gemini-2.5-flash-image",
+        wavespeed: "google/gemini-2.5-flash-image/text-to-image",
     },
     {
         gemini: "gemini-3-pro-image-preview",
         imagerouter: "google/gemini-3-pro",
         fal: "fal-ai/gemini-3-pro-image-preview",
+        nanogpt: "nano-banana-pro",
+        runware: "google:4@2",
+        replicate: "google/gemini-3-pro",
+        wavespeed: "google/gemini-3-pro-image/text-to-image",
     },
     {
         geminiImagen: "imagen-3.0-generate-002",
@@ -565,12 +579,15 @@ const providelMapping = [
         nanogpt: "gpt-image-1",
         openai: "gpt-image-1",
         fal: "fal-ai/gpt-image-1/text-to-image",
+        wavespeed: "openai/gpt-image-1",
+        runware: "openai:1@1",
     },
     {
         imagerouter: "openai/gpt-image-1-mini",
         nanogpt: "gpt-image-1-mini",
         openai: "gpt-image-1-mini",
         fal: "fal-ai/gpt-image-1-mini",
+        wavespeed: "openai/gpt-image-1-mini/text-to-image",
     },
     {
         imagerouter: "openai/sora-2",
@@ -648,9 +665,11 @@ const providelMapping = [
         runware: "civitai:101055@128078",
     },
     {
+        huggingface: "stabilityai/sdxl-turbo",
         deepinfra: "stabilityai/sdxl-turbo",
         imagerouter: "stabilityai/sdxl-turbo",
         runware: "civitai:215418@273102",
+        replicate: "jyoung105/sdxl-turbo:93c488b9fbd6bea622d354c8dcce2724c5f67adb92ccf909038042a21c5238a7",
     },
     {
         imagerouter: "wavespeed/ghibli",
@@ -659,5 +678,6 @@ const providelMapping = [
     {
         grok: "grok-2-image",
         imagerouter: "xAI/grok-2-image",
+        replicate: "xai/grok-2-image",
     }
 ];
