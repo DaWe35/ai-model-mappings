@@ -35,3 +35,9 @@ curl --request GET \
   --url https://nano-gpt.com/api/models \
   --header 'Authorization: Bearer YOUR_API_KEY'  > nanogpt_models.json
 ```
+
+### Chutes
+```
+curl -X GET "https://api.chutes.ai/chutes/?template=diffusion" \
+  -H "Content-Type: application/json" > chutes_models.json
+```

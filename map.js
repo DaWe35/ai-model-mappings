@@ -148,6 +148,7 @@ const providelMapping = [
         cloudflare: "@cf/stabilityai/stable-diffusion-xl-base-1.0",
         huggingface: "stabilityai/stable-diffusion-xl-base-1.0",
         replicate: "stability-ai/sdxl:7762fd07cf82c948538e41f63f77d685e02b063e37e496e96eefd46c929f9bdc",
+        chutes: "stabilityai/stable-diffusion-xl-base-1.0",
     },
     {
         huggingface: "tencent/HunyuanImage-2.1",
@@ -160,6 +161,7 @@ const providelMapping = [
         imagerouter: "tencent/hunyuan-image-3",
         nanogpt: "hunyuan-image-3",
         fal: "fal-ai/hunyuan-image/v3/text-to-image",
+        chutes: "hunyuan-image-3",
     },
     {
         huggingface: "zeke/rider-waite-tarot-flux",
@@ -543,6 +545,7 @@ const providelMapping = [
         cloudflare: "@cf/lykon/dreamshaper-8-lcm",
         imagerouter: "Lykon/DreamShaper",
         runware: "civitai:4384@128713",
+        chutes: "Lykon/dreamshaper-xl-1-0",
     },
     {
         cloudflare: "@cf/leonardo/phoenix-1.0",
@@ -657,6 +660,7 @@ const providelMapping = [
         imagerouter: "run-diffusion/Juggernaut-XL",
         runware: "civitai:133005@782002",
         fal: "rundiffusion-fal/juggernaut-flux/lightning",
+        chutes: "JuggernautXL",
     },
     {
         imagerouter: "run-diffusion/RunDiffusion-Photo-Flux",
