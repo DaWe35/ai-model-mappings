@@ -315,7 +315,6 @@ const providelMapping = [
         fal: "fal-ai/gemini-3-pro-image-preview",
         nanogpt: "nano-banana-pro",
         runware: "google:4@2",
-        replicate: "google/gemini-3-pro",
         wavespeed: "google/gemini-3-pro-image/text-to-image",
     },
     {
