@@ -564,7 +564,7 @@ const providelMapping = [
     {
         imagerouter: "minimax/image-01",
         replicate: "minimax/image-01",
-        fal: "fal-ai/minimax/video-01/image-to-video",
+        fal: "fal-ai/minimax/image-01",
     },
     {
         imagerouter: "openai/dall-e-2",
