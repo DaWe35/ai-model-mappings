@@ -72,8 +72,6 @@ const providelMapping = [
         deepinfra: "black-forest-labs/FLUX-pro",
         imagerouter: "black-forest-labs/FLUX-pro",
         nanogpt: "flux-pro",
-        fal: "fal-ai/flux-pro/v1.1",
-        wavespeed: "wavespeed-ai/flux-1.1-pro",
     },
     {
         huggingface: "black-forest-labs/FLUX.1-dev",
